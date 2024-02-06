@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.2.2'
+ruby '3.3.0'
 
 gem 'chartkick'
 gem 'delayed' # delayed_job_active_record rails 7 fork: https://github.com/betterment/delayed
@@ -18,7 +18,7 @@ gem 'pg'
 gem 'postmark-rails'
 gem 'puma', '6.4.2'
 gem 'rack-cors', :require => 'rack/cors'
-gem 'rails', '7.1.2'
+gem 'rails', '7.1.3'
 gem 'redis'
 gem 'rename', '1.1.3', git: 'https://github.com/ryanckulp/rename' # remove this gem after use
 gem 'sprockets-rails'
